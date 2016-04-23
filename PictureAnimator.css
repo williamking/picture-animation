@@ -1,0 +1,15 @@
+.picture-animation-wrapper {
+	position: relative;
+}
+
+.picture-animation-item {
+	position: absolute;
+}
+
+.picture-animation-item:hover, .animating {
+	transform-style: preserver-3d;
+	transition: 2s ease;
+	transform: rotateY(360deg);
+	-webkit-transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+};
